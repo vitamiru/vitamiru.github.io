@@ -1,0 +1,39 @@
+.vphone {
+  max-width: 600px;
+  margin: 0px auto; 
+  border: 1px solid var(--accent);
+  padding: 60px; 
+  flex: 1; 
+  box-sizing: border-box; 
+  text-align: center;
+  font-size: 14px;
+  line-height: 150%;
+  white-space: pre-line;
+}
+
+.vmsg{
+  z-index: 1;
+  position: relative;
+  margin: auto;
+  padding: 20px;
+  max-width: 300px;
+  border-bottom: 3px solid var(--accent);
+}
+
+.vmsg:after{
+  z-index: -1;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  content: "";
+  background: var(--rgba);
+  height: 100%;
+  width: 100%;
+  opacity: .3;
+}
+
+.vmsg img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}

@@ -1,0 +1,16 @@
+.moodr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.moodc {
+  max-width: 200px;
+  padding: 0 4px;
+}
+
+.moodc img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
